@@ -3,6 +3,7 @@
 name: Compilation and Format Check
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "master" ]
   pull_request:
